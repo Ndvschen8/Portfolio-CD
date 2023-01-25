@@ -1,0 +1,65 @@
+*{
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+body{
+  padding: 2rem;
+  margin: 0;
+  line-height: 1.5;
+  color:rgb(96, 90, 90);
+}
+
+
+p{
+  color: rgb(87, 83, 83);
+  
+}
+
+
+h1{
+  text-transform: uppercase;
+  font-size: 10px;
+  margin: 2rem 0 1.5rem;
+}
+
+.post{
+  position: relative;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: rgb(248, 244, 244);
+
+}
+
+img{
+  width: 100%;
+  display: block;
+
+}
+
+.jumbotron{
+  background-image : url("./Assets/banner.jpg");
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  font-family: Tahoma;
+}
+
+.display-4{
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .c-multicol{
+    /*column-count: 3;*/
+    column-width: 30vw;
+    gap: 2rem;
+  }
+  
+}
+
+.post{
+  break-inside: avoid;
+}
+
+
